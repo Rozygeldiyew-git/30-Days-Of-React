@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1> 30 Days Of React: JavaScript Refresher</h1>
+  <h1> 30 günde React: JavaScript-e gysgaça göz aýlamak</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
     <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
@@ -9,133 +9,133 @@
     <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
-<sub>Author:
+<sub>Awtor:
 <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> October, 2020</small>
+<small> Oktýabr, 2020</small>
 </sub>
 
 </div>
 
-[<< Day 0](../readMe.md) | [Day 2 >>](../02_Day_Introduction_to_React/02_introduction_to_react.md)
+[<< Gün 0](../readMe.md) | [Gün 2 >>](../02_Day_Introduction_to_React/02_introduction_to_react.md)
 
-![30 Days of React banner](../images/30_days_of_react_banner_day_1.jpg)
+![30 günde React banner](../images/30_days_of_react_banner_day_1.jpg)
 
-- [JavaScript Refresher](#javascript-refresher)
-  - [0. Adding JavaScript to a Web Page](#0-adding-javascript-to-a-web-page)
-    - [Inline Script](#inline-script)
-    - [Internal Script](#internal-script)
-    - [External Script](#external-script)
-    - [Multiple External Scripts](#multiple-external-scripts)
-  - [1. Variables](#1-variables)
-  - [2. Data types](#2-data-types)
-  - [3. Arrays](#3-arrays)
-    - [How to create an empty array](#how-to-create-an-empty-array)
-    - [How to create an array with values](#how-to-create-an-array-with-values)
-    - [Creating an array using split](#creating-an-array-using-split)
-    - [Accessing array items using index](#accessing-array-items-using-index)
-    - [Modifying array element](#modifying-array-element)
-    - [Methods to manipulate array](#methods-to-manipulate-array)
-      - [Array Constructor](#array-constructor)
-      - [Creating static values with fill](#creating-static-values-with-fill)
-      - [Concatenating array using concat](#concatenating-array-using-concat)
-      - [Getting array length](#getting-array-length)
-      - [Getting index of an element in an array](#getting-index-of-an-element-in-an-array)
-      - [Getting last index of an element in array](#getting-last-index-of-an-element-in-array)
-      - [Checking array](#checking-array)
-      - [Converting array to string](#converting-array-to-string)
-      - [Joining array elements](#joining-array-elements)
-      - [Slice array elements](#slice-array-elements)
-      - [Splice method in array](#splice-method-in-array)
-      - [Adding item to an array using push](#adding-item-to-an-array-using-push)
-      - [Removing the end element using pop](#removing-the-end-element-using-pop)
-      - [Removing an element from the beginning](#removing-an-element-from-the-beginning)
-      - [Add an element from the beginning](#add-an-element-from-the-beginning)
-      - [Reversing array order](#reversing-array-order)
-      - [Sorting elements in array](#sorting-elements-in-array)
-    - [Array of arrays](#array-of-arrays)
-  - [💻 Exercise](#-exercise)
-      - [Exercise: Level 1](#exercise-level-1)
-      - [Exercise: Level 2](#exercise-level-2)
-      - [Exercise: Level 3](#exercise-level-3)
-  - [4. Conditionals](#4-conditionals)
+- [JavaScript-e gysgaça göz aýlamak](#javascript-refresher)
+  - [0. Web sahypa JavaScript-i goşmak](#0-adding-javascript-to-a-web-page)
+    - [Inline Script - Setir içi kod bölejigi](#inline-script)
+    - [Internal Script - Içki kod bölejigi](#internal-script)
+    - [External Script - Daşky kod bölejigi](#external-script)
+    - [Multiple External Scripts - Birnäçe daşky kod bölejigi](#multiple-external-scripts)
+  - [1. Üýtgeýjiler](#1-variables)
+  - [2. Maglumatyň görnüşleri](#2-data-types)
+  - [3. Arrays - Array-ler](#3-arrays)
+    - [Nädip boş array döretmeli ?](#how-to-create-an-empty-array)
+    - [Nädip bahalary bilen bir array döretmeli ?](#how-to-create-an-array-with-values)
+    - [Split ulanyp array döretmek](#creating-an-array-using-split)
+    - [Indeks arkaly array-iň elementlerini almak](#accessing-array-items-using-index)
+    - [Array-iň elementini üýtgetmek](#modifying-array-element)
+    - [Array-i manipulýasiýa etmek üçin metodlar](#methods-to-manipulate-array)
+      - [Array Konstruktor](#array-constructor)
+      - [fill metody bilen statik bahalar bermek](#creating-static-values-with-fill)
+      - [concat metody bilen array-leri birleşdirmek](#concatenating-array-using-concat)
+      - [Array-iň uzynlygyny almak (length)](#getting-array-length)
+      - [Array-däki bir elementiň indeksini almak](#getting-index-of-an-element-in-an-array)
+      - [Array-däki bir elementiň iň soňky elementini almak](#getting-last-index-of-an-element-in-array)
+      - [Array-mi, dälmi barlamak](#checking-array)
+      - [Array-i string-e öwürmek](#converting-array-to-string)
+      - [Array-iň elementlerini birleşdirmek](#joining-array-elements)
+      - [Array-iň elementlerini indeksi boýunça kesip almak](#slice-array-elements)
+      - [Array-iň splice metody](#splice-method-in-array)
+      - [push metody arkaly bir array-iň soňuna element goşmak](#adding-item-to-an-array-using-push)
+      - [pop metody arkaly array-iň soňundan element aýyrmak](#removing-the-end-element-using-pop)
+      - [Array-iň başyndan element aýýyrmak](#removing-an-element-from-the-beginning)
+      - [Array-iň başyna element goşmak](#add-an-element-from-the-beginning)
+      - [Array-iň tertibini tersine öwürmek](#reversing-array-order)
+      - [Array-i sortlamak (tertiplemek)](#sorting-elements-in-array)
+    - [Array-iň içinde array](#array-of-arrays)
+  - [💻 Praktikalar](#-exercise)
+      - [Praktika: Dereje 1](#exercise-level-1)
+      - [Praktika: Dereje 2](#exercise-level-2)
+      - [Praktika: Dereje 3](#exercise-level-3)
+  - [4. Şert operatorlary](#4-conditionals)
     - [If](#if)
     - [If Else](#if-else)
     - [If Else if Else](#if-else-if-else)
     - [Switch](#switch)
-    - [Ternary Operators](#ternary-operators)
-  - [💻 Exercises](#-exercises)
-      - [Exercises: Level 1](#exercises-level-1)
-      - [Exercises: Level 2](#exercises-level-2)
-      - [Exercises: Level 3](#exercises-level-3)
-  - [5. Loops](#5-loops)
-    - [Types of Loops](#types-of-loops)
+    - [Ternary Operatory](#ternary-operators)
+  - [💻 Praktikalar](#-exercises)
+      - [Praktika: Dereje 1](#exercises-level-1)
+      - [Praktika: Dereje 2](#exercises-level-2)
+      - [Praktika: Dereje 3](#exercises-level-3)
+  - [5. Gaýtalanma operatorylary](#5-loops)
+    - [Gaýtalanma operatorlarynyň görnüşleri](#types-of-loops)
       - [1. for](#1-for)
       - [2. while](#2-while)
       - [3. do while](#3-do-while)
       - [4. for of](#4-for-of)
       - [5. forEach](#5-foreach)
       - [6. for in](#6-for-in)
-    - [Interrupting a loop and skipping an item](#interrupting-a-loop-and-skipping-an-item)
+    - [Gaýtalanma operatoryny durdurmak we böküp geçmek](#interrupting-a-loop-and-skipping-an-item)
       - [break](#break)
       - [continue](#continue)
-    - [Conclusions](#conclusions)
-  - [6. Scope](#6-scope)
-    - [Window Scope](#window-scope)
-    - [Global scope](#global-scope)
-    - [Local scope](#local-scope)
-  - [7. Object](#7-object)
-    - [Creating an empty object](#creating-an-empty-object)
-    - [Creating an objecting with values](#creating-an-objecting-with-values)
+    - [Çözgütler](#conclusions)
+  - [6. Scope - Ulanyş gerimi](#6-scope)
+    - [Window Scope - Penjire gerimi](#window-scope)
+    - [Global scope - Umumy gerim](#global-scope)
+    - [Local scope - Ýerli gerim](#local-scope)
+  - [7. Obýekt](#7-object)
+    - [Boş bir obýekt döretmek](#creating-an-empty-object)
+    - [Bahalary bilen bir obýekt döretmek](#creating-an-objecting-with-values)
     - [Getting values from an object](#getting-values-from-an-object)
-    - [Creating object methods](#creating-object-methods)
-    - [Setting new key for an object](#setting-new-key-for-an-object)
-    - [Object Methods](#object-methods)
-      - [Getting object keys using Object.keys()](#getting-object-keys-using-objectkeys)
-      - [Getting object values using Object.values()](#getting-object-values-using-objectvalues)
-      - [Getting object keys and values using Object.entries()](#getting-object-keys-and-values-using-objectentries)
-      - [Checking properties using hasOwnProperty()](#checking-properties-using-hasownproperty)
-  - [💻 Exercises](#-exercises-1)
-      - [Exercises: Level 1](#exercises-level-1-1)
-      - [Exercises: Level 2](#exercises-level-2-1)
-      - [Exercises: Level 3](#exercises-level-3-1)
-  - [8. Functions](#8-functions)
-    - [Function Declaration](#function-declaration)
-    - [Function without a parameter and return](#function-without-a-parameter-and-return)
-    - [Function returning value](#function-returning-value)
-    - [Function with a parameter](#function-with-a-parameter)
-    - [Function with two parameters](#function-with-two-parameters)
-    - [Function with many parameters](#function-with-many-parameters)
-    - [Function with unlimited number of parameters](#function-with-unlimited-number-of-parameters)
-      - [Unlimited number of parameters in regular function](#unlimited-number-of-parameters-in-regular-function)
-      - [Unlimited number of parameters in arrow function](#unlimited-number-of-parameters-in-arrow-function)
-    - [Anonymous Function](#anonymous-function)
-    - [Expression Function](#expression-function)
-    - [Self Invoking Functions](#self-invoking-functions)
-    - [Arrow Function](#arrow-function)
-    - [Function with default parameters](#function-with-default-parameters)
-    - [Function declaration versus Arrow function](#function-declaration-versus-arrow-function)
-  - [💻 Exercises](#-exercises-2)
-      - [Exercises: Level 1](#exercises-level-1-2)
-      - [Exercises: Level 2](#exercises-level-2-2)
-      - [Exercises: Level 3](#exercises-level-3-2)
-  - [9. Higher Order Function](#9-higher-order-function)
-    - [Callback](#callback)
-    - [Returning function](#returning-function)
-    - [setting time](#setting-time)
+    - [Obýektiň metodlaryny döretmek](#creating-object-methods)
+    - [Bir obýekte täze bir açar söz ýerleşdirmek](#setting-new-key-for-an-object)
+    - [Obýekt-iň metodlary](#object-methods)
+      - [Object.keys() arkaly obýektiň ähli açar sözlerini almak](#getting-object-keys-using-objectkeys)
+      - [Object.values() arkaly obýektiň bahalaryny almak](#getting-object-values-using-objectvalues)
+      - [Object.entries() arkaly obýektiň ähli açarlaryny we bahalaryny almak](#getting-object-keys-and-values-using-objectentries)
+      - [hasOwnProperty() arkaly obýekte görkezilen açaryň barlygyny barlamak](#checking-properties-using-hasownproperty)
+  - [💻 Praktikalar](#-exercises-1)
+      - [Praktika: Dereje 1](#exercises-level-1-1)
+      - [Praktika: Dereje 2](#exercises-level-2-1)
+      - [Praktika: Dereje 3](#exercises-level-3-1)
+  - [8. Funksiýalar ](#8-functions)
+    - [Funksiýa döretmek](#function-declaration)
+    - [return we hiç hili parametrsiz funksiýa döretmek](#function-without-a-parameter-and-return)
+    - [Baha gaýtaryp berýän funksiýa döretmek](#function-returning-value)
+    - [Bir parametr alýan funksiýa döretmek](#function-with-a-parameter)
+    - [2 sany parametr alýan funksiýa döretmek](#function-with-two-parameters)
+    - [Köp parametrleri funksiýa döretmek](#function-with-many-parameters)
+    - [Tükeniksiz parametr alýan funksiýa döretmek](#function-with-unlimited-number-of-parameters)
+      - [Tükeniksiz parametr alýan regulýar funksiýa](#unlimited-number-of-parameters-in-regular-function)
+      - [Tükeniksiz parametr](#unlimited-number-of-parameters-in-arrow-function)
+    - [Näbelli funksiýa](#anonymous-function)
+    - [Aňlatma funksiýa](#expression-function)
+    - [Öz-özüni çagyrýana funksiýa](#self-invoking-functions)
+    - [Ok funksiýa](#arrow-function)
+    - [Başlangyç bahaly parametr alýan funksiýa döretmek](#function-with-default-parameters)
+    - [function açar sözli funksýa vs ok funksiýa](#function-declaration-versus-arrow-function)
+  - [💻 Praktika](#-exercises-2)
+      - [Praktika: Dereje 1](#exercises-level-1-2)
+      - [Praktika: Dereje 2](#exercises-level-2-2)
+      - [Praktika: Dereje 3](#exercises-level-3-2)
+  - [9. Ýokary derejeli funksiýalar](#9-higher-order-function)
+    - [Callback - Funksiýa parametr hökmunde funksiýa alýar](#callback)
+    - [Returning function - Funksiýa funksiýa gaýtaryp berýar](#returning-function)
+    - [setting time - wagt sazlamalary](#setting-time)
       - [setInterval](#setinterval)
       - [setTimeout](#settimeout)
-  - [10. Destructuring and Spreading](#10-destructuring-and-spreading)
-    - [What is Destructuring?](#what-is-destructuring)
-    - [What can we destructure?](#what-can-we-destructure)
-      - [1. Destructuring arrays](#1-destructuring-arrays)
-      - [2. Destructuring objects](#2-destructuring-objects)
-    - [Exercises](#exercises)
-    - [Spread or Rest Operator](#spread-or-rest-operator)
-      - [Spread operator to get the rest of array elements](#spread-operator-to-get-the-rest-of-array-elements)
-      - [Spread operator to copy array](#spread-operator-to-copy-array)
-      - [Spread operator to copy object](#spread-operator-to-copy-object)
-      - [Spread operator with arrow function](#spread-operator-with-arrow-function)
-  - [11. Functional Programming](#11-functional-programming)
+  - [10. Destruksiýa etmek we ýaýradyp almak](#10-destructuring-and-spreading)
+    - [Destruksiýa näme zat?](#what-is-destructuring)
+    - [Biz destruksiýa bilen näme edip bileris?](#what-can-we-destructure)
+      - [1. Array-leri destruksiýa etmek](#1-destructuring-arrays)
+      - [2. Obýektleri destruksiýa etmek](#2-destructuring-objects)
+    - [Praktiça](#exercises)
+    - [Ýaýratmak ýa-da galanyny alýan operatorlar](#spread-or-rest-operator)
+      - [Spread (ýaýratmak) operatory arkaly array-iň galan elementlerini almak](#spread-operator-to-get-the-rest-of-array-elements)
+      - [Spread operatory arkaly array-i kopýalamak](#spread-operator-to-copy-array)
+      - [Spread operatory arkaly obýektleri kopýalamak](#spread-operator-to-copy-object)
+      - [Spread operatoryny ok funksiýasy bilen ulanmak](#spread-operator-with-arrow-function)
+  - [11. Funksiýonal programmirleme](#11-functional-programming)
     - [1. forEach](#1-foreach)
     - [2. map](#2-map)
     - [3. filter](#3-filter)
@@ -144,41 +144,41 @@
     - [6. findIndex](#6-findindex)
     - [7. some](#7-some)
     - [8. every](#8-every)
-    - [Exercises](#exercises-1)
-  - [12. Classes](#12-classes)
-    - [Defining a classes](#defining-a-classes)
-    - [Class Instantiation](#class-instantiation)
-    - [Class Constructor](#class-constructor)
-    - [Default values with constructor](#default-values-with-constructor)
-    - [Class methods](#class-methods)
-    - [Properties with initial value](#properties-with-initial-value)
+    - [Praktika](#exercises-1)
+  - [12. Klaslar](#12-classes)
+    - [Klas döretmek](#defining-a-classes)
+    - [Klasyň ekzamplýaryny almak](#class-instantiation)
+    - [Klas konstruksiýasy](#class-constructor)
+    - [Başlangyç bahalary bilen konstruksiýa](#default-values-with-constructor)
+    - [Klas metodlary](#class-methods)
+    - [Başlangyç baha berip klasyň aýratynlyklaryny döretmek (properties)](#properties-with-initial-value)
     - [getter](#getter)
     - [setter](#setter)
-    - [Static method](#static-method)
-    - [Inheritance](#inheritance)
-    - [Overriding methods](#overriding-methods)
-    - [Exercises](#exercises-2)
-      - [Exercises Level 1](#exercises-level-1-3)
-      - [Exercises Level 2](#exercises-level-2-3)
-      - [Exercises Level 3](#exercises-level-3-3)
+    - [Statiki metody](#static-method)
+    - [Nesillenme](#inheritance)
+    - [Üstüne ýazmak](#overriding-methods)
+    - [Praktika](#exercises-2)
+      - [Praktika Dereje 1](#exercises-level-1-3)
+      - [Praktika Dereje 2](#exercises-level-2-3)
+      - [Praktika Dereje 3](#exercises-level-3-3)
   - [13 Document Object Model(DOM)](#13-document-object-modeldom)
 
-## JavaScript Refresher
+## JavaScript-e gysgaça göz aýlamak
 
-### 0. Adding JavaScript to a Web Page
+### 0. Web sahypa JavaScript-i goşmak
 
-JavaScript can be added to a web page in three different ways:
+JavaScript-i bir web sahypasyna 3 dürli ýol bilen goşup bileris:
 
-- **_Inline script_**
-- **_Internal script_**
-- **_External script_**
-- **_Multiple External scripts_**
+- **_Inline Script - Setir içi kod bölejigi_**
+- **_Internal Script - Içki kod bölejigi_**
+- **_External Script -Daşky kod bölejigi_**
+- **_Multiple External Script - Birnäçe daşky kod bölejigi_**
 
-The following sections show different ways of adding JavaScript code to your web page.
+Aşakdaky bölümlerde web sahypaňyza JavaScript koduny goşmagyň dürli usullary görkezilýär.
 
-#### Inline Script
+#### Inline Script - Setir içi kod bölejigi
 
-Create a project folder on your desktop or in any location, name it 30DaysOfJS and create an **_index.html_** file in the project folder. Then paste the following code and open it in a browser, for example [Chrome](https://www.google.com/chrome/).
+Desktop-da ýa-da islendik ýerde proýekt papkany dörediň, oňa 30DaysOfJS adyny beriň we papkada ** _ index.html _ ** faýly dörediň. Soňra aşakdaky kody goýuň we brauzerde açyň [Chrome](https://www.google.com/chrome/).
 
 ```html
 <!DOCTYPE html>
@@ -192,12 +192,11 @@ Create a project folder on your desktop or in any location, name it 30DaysOfJS a
 </html>
 ```
 
-Now, you just wrote your first inline script. We can create a pop up alert message using the _alert()_ built-in function.
+Siz şu wagt ilkinji koduňyzy ýazdyňyz. Indi gömükli _alert()_ funksiýasyny ulanyp biz pop-up penjiräni çykaryp bileris.
 
-#### Internal Script
+#### Internal Script - Içki kod bölejigi
 
-The internal script can be written in the _head_ or the _body_, but it is preferred to put it on the body of the HTML document.
-First, let us write on the head part of the page.
+Biz internal script-i _head_ ýa-da the _body_ -nyň içine ýazyp bilýäs, ýöne köplenç _body_-nyň içine ýazylýar. Biz ilki bilen _head_-iň içine ýazaly.
 
 ```html
 <!DOCTYPE html>
@@ -212,7 +211,7 @@ First, let us write on the head part of the page.
 </html>
 ```
 
-This is how we write an internal script most of the time. Writing the JavaScript code in the body section is the most preferred option. Open the browser console to see the output from the console.log()
+Ine köplenç internal script-i şeýle ulanýarys. Köp kişi JavaScript koduny şeýle ýazyp ulanýar. Brauzeri açyň we  console.log() -yň berýän netijesini görüň.
 
 ```html
 <!DOCTYPE html>
@@ -229,20 +228,19 @@ This is how we write an internal script most of the time. Writing the JavaScript
 </html>
 ```
 
-Open the browser console to see the output from the console.log()
+Brauzeri açyň we  console.log() -yň berýän netijesini görüň.
 
 ![js code from vscode](../images/js_code_vscode.png)
 
-#### External Script
+#### External Script - Daşky kod bölejigi
 
-Similar to the internal script, the external script link can be on the header or body, but it is preferred to put it in the body.
-First, we should create an external JavaScript file with .js extension. All files ending with .js extension. All files ending with .js extension are JavaScript files. Create a file named introduction.js inside your project directory and write the following code and link this .js file at the bottom of the body.
+External script hem edil internal sçript ýaly _head_-e ýa-da _body_ goýulýar, emma _body_-nyň içine goýmak iň giňden ýaýranydyr. Biz ilki bilen, .js giňeltmeli bir JavaScript faýlyny döretmeli. Ähli JavaScript faýllaryň soňy .js bilen gutarýandyr. Siziň kod ýazýan papkaňyzyň içinde  **introduction.js** atly faýl dörediň we içine aşakdaky kody ýazyň, ondan soňra bolsa _body_-nyň içine aşakdaky ýaly edip onuň salgysyny goýuň.
 
 ```js
 console.log('Welcome to 30DaysOfJavaScript')
 ```
 
-External scripts in the _head_:
+External script  _head_-iň içinde:
 
 ```html
 <!DOCTYPE html>
@@ -255,7 +253,7 @@ External scripts in the _head_:
 </html>
 ```
 
-External scripts in the _body_:
+External script  _body_-nyň içinde:
 
 ```html
 <!DOCTYPE html>
@@ -271,12 +269,12 @@ External scripts in the _body_:
 </html>
 ```
 
-Open the browser console to see the output of the console.log()
+Brauzeri açyň we  console.log() -yň berýän netijesini görüň.
 
-#### Multiple External Scripts
+#### Multiple External Script - Birnäçe daşky kod bölejigi
 
-We can also link multiple external JavaScript files to a web page.
-Create a helloworld.js file inside the 30DaysOfJS folder and write the following code.
+Biz birnäçe JavaScript faýllaryny bir web sahypanyň içine salgylaryny goýmak arkaly goşup bileris.
+30DaysOfJS papkanyň içinde helloworld.js atly faýl dörediň we içine aşakdaky kody ýazyň.
 
 ```js
 console.log('Hello, World!')
@@ -295,7 +293,7 @@ console.log('Hello, World!')
 </html>
 ```
 
-_Your main.js file should be below all other scripts_. It is very important to remember this.
+_Siziň main.js faýlyňyz beýleki script-leriň aşagynda bolmaly_. Bu gaty möhümdir, muny ýatdan çykarmaň!
 
 ![Multiple Script](../images/multiple_script.png)
 

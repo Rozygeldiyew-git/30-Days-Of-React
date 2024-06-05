@@ -4,7 +4,7 @@
 
 <div align="center">
 
-  <h1> 30 Days Of React</h1>
+  <h1> 30 günde React</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
@@ -13,85 +13,85 @@
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
-<sub>Author: <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> October, 2020</small></sub>
+<sub>Awtor: <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<small> Oktýabr, 2020</small></sub>
 
 </div>
 
-[Day 1 >>](./01_Day_JavaScript_Refresher/01_javascript_refresher.md)
+[Gun 1 >>](./01_Day_JavaScript_Refresher/01_javascript_refresher.md)
 
 | # Day |                                                           Topics                                                            |
 | ----- | :-------------------------------------------------------------------------------------------------------------------------: |
-| 00    | [Introduction](#introduction)<br> [How to Use Repo](#how-to-use-repo)<br> [Requirements](#requirements)<br> [Setup](#setup) |
-| 01    |                      [JavaScript Refresher](./01_Day_JavaScript_Refresher/01_javascript_refresher.md)                       |
-| 02    |                     [Getting Started React](./02_Day_Introduction_to_React/02_introduction_to_react.md)                     |
-| 03    |                                     [Setting Up](./03_Day_Setting_Up/03_setting_up.md)                                      |
-| 04    |                                     [Components](./04_Day_Components/04_components.md)                                      |
-| 05    |                                             [Props](./05_Day_Props/05_props.md)                                             |
-| 06    |                              [List, Map and Keys](./06_Day_Map_List_Keys/06_map_list_keys.md)                               |
-| 07    |                            [Class Components](./07_Day_Class_Components/07_class_components.md)                             |
-| 08    |                                           [States](./08_Day_States/08_states.md)                                            |
-| 09    |                     [Conditional Rendering](./09_Day_Conditional_Rendering/09_conditional_rendering.md)                     |
-| 10    |         [React Project Folder Structure](./10_React_Project_Folder_Structure/10_react_project_folder_structure.md)          |
-| 11    |                                           [Events](./11_Day_Events/11_events.md)                                            |
-| 12    |                                             [Forms](./12_Day_Forms/12_forms.md)                                             |
-| 13    |       [Controlled and Uncontrolled Component](./13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input.md)       |
-| 14    |                     [Component Life Cycles](./14_Day_Component_Life_Cycles/14_component_life_cycles.md)                     |
-| 15    |                        [Third Party Packages](./15_Third_Party_Packages/15_third_party_packages.md)                         |
-| 16    |                     [Higher Order Components](./16_Higher_Order_Component/16_higher_order_component.md)                     |
+| 00    | [Giriş](#introduction)<br> [Repo-ny nädip ulanmal ?](#how-to-use-repo)<br> [Gerekliler](#requirements)<br> [Gurnamak](#setup) |
+| 01    |                      [JavaScript-e gysgaça göz aýlamak](./01_Day_JavaScript_Refresher/01_javascript_refresher.md)                       |
+| 02    |                     [React-a giriş](./02_Day_Introduction_to_React/02_introduction_to_react.md)                     |
+| 03    |                                     [Gurmak](./03_Day_Setting_Up/03_setting_up.md)                                      |
+| 04    |                                     [Komponentalar](./04_Day_Components/04_components.md)                                      |
+| 05    |                                             [Prop-lar](./05_Day_Props/05_props.md)                                             |
+| 06    |                              [List, Map we Key-ler](./06_Day_Map_List_Keys/06_map_list_keys.md)                               |
+| 07    |                            [Klas Komponentalar](./07_Day_Class_Components/07_class_components.md)                             |
+| 08    |                                           [State-ler](./08_Day_States/08_states.md)                                            |
+| 09    |                     [Şertli render etmek](./09_Day_Conditional_Rendering/09_conditional_rendering.md)                     |
+| 10    |         [React Proýektiniň papka strukturasy](./10_React_Project_Folder_Structure/10_react_project_folder_structure.md)          |
+| 11    |                                           [Wakalar](./11_Day_Events/11_events.md)                                            |
+| 12    |                                             [Formalar](./12_Day_Forms/12_forms.md)                                             |
+| 13    |       [Kontrolly we kontrolsyz komponentalar](./13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input.md)       |
+| 14    |                     [Komponentanyň ýaşaýyş sikli](./14_Day_Component_Life_Cycles/14_component_life_cycles.md)                     |
+| 15    |                        [3-nji tarap paketler](./15_Third_Party_Packages/15_third_party_packages.md)                         |
+| 16    |                     [Ýokary Derejeli Komponentalar](./16_Higher_Order_Component/16_higher_order_component.md)                     |
 | 17    |                                    [React Router](./17_React_Router/17_react_router.md)                                     |
-| 18    |                                [Fetch versus Axios](./18_Fetch_And_Axios/18_fetch_axios.md)                                 |
-| 19    |                                          [Projects](./19_projects/19_projects.md)                                           |
-| 20    |                                          [Projects](./20_projects/20_projects.md)                                           |
-| 21    |                                   [Hooks](./21_Introducing_Hooks/21_introducing_hooks.md)                                   |
-| 22    |                              [Forms Using Hook](./22_Form_Using_Hooks/22_form_using_hooks.md)                               |
-| 23    |                 [Fetching Data Using Hooks](./23_Fetching_Data_Using_Hooks/23_fetching_data_using_hooks.md)                 |
-| 24    |                                     [Project using Hooks](./24_projects/24_projects.md)                                     |
-| 25    |                                    [Custom Hooks](./25_Custom_Hooks/25_custom_hooks.md)                                     |
-| 26    |                                            [Context](./26_Context/26_context.md)                                            |
+| 18    |                                [Fetch vs Axios](./18_Fetch_And_Axios/18_fetch_axios.md)                                 |
+| 19    |                                          [Proýekt](./19_projects/19_projects.md)                                           |
+| 20    |                                          [Proýekt](./20_projects/20_projects.md)                                           |
+| 21    |                                   [Çeňňekler (Hooks)](./21_Introducing_Hooks/21_introducing_hooks.md)                                   |
+| 22    |                              [Hook-lar arkaly formany kontrol etmek](./22_Form_Using_Hooks/22_form_using_hooks.md)                               |
+| 23    |                 [Hook-lar arkaly maglumat çekip almak](./23_Fetching_Data_Using_Hooks/23_fetching_data_using_hooks.md)                 |
+| 24    |                                     [Hook-lary ulanyp proýekt yasamak](./24_projects/24_projects.md)                                     |
+| 25    |                                    [Öz döreden hook-larymyz](./25_Custom_Hooks/25_custom_hooks.md)                                     |
+| 26    |                                            [Kontekst](./26_Context/26_context.md)                                            |
 | 27    |                                                  [Ref](./27_Ref/27_ref.md)                                                  |
-| 28    |                                            [project](./28_project/28_project.md)                                            |
+| 28    |                                            [Proýekt](./28_project/28_project.md)                                            |
 | 29    |                                            [Explore](./29_explore/29_explore.md)                                            |
-| 30    |                                      [Conclusions](./30_conclusions/30_conclusions.md)                                      |
+| 30    |                                      [Netije](./30_conclusions/30_conclusions.md)                                      |
 
 🧡🧡🧡 HAPPY CODING 🧡🧡🧡
 
 <div>
-<small>Support the <strong>author</strong> to create more educational materials</small> <br />  
+<small>Ýene şular ýaly materiallary döretmegi üçin <strong>awtora</strong> goldaw beriň</small> <br />  
 <a href = "https://www.paypal.me/asabeneh"><img src='./images/paypal_lg.png' alt='Paypal Logo' style="width:10%"/></a>
 </div>
 
 ---
 
-- [Introduction](#introduction)
-- [Requirements](#requirements)
-- [How to Use Repo](#how-to-use-repo)
-  - [Star and Fork this Repo](#star-and-fork-this-repo)
-  - [Clone your Fork](#clone-your-fork)
-  - [Create a New Branch](#create-a-new-branch)
-  - [Structure Exercise Solutions](#structure-exercise-solutions)
-  - [Commit Exercise Solutions](#commit-exercise-solutions)
-  - [Update your Fork Daily](#update-your-fork-daily)
-- [Setup](#setup)
-  - [Install Node.js](#install-nodejs)
-  - [Browser](#browser)
-    - [Installing Google Chrome](#installing-google-chrome)
-    - [Opening Google Chrome Console](#opening-google-chrome-console)
-    - [Writing Code on Browser Console](#writing-code-on-browser-console)
+- [Giriş](#introduction)
+- [Gerekliler](#requirements)
+- [Repo-ny nädip ulanmaly ?](#how-to-use-repo)
+  - [Bu Repo ýyldyz goý we fork-lap al](#star-and-fork-this-repo)
+  - [Fork-lap klonlaň](#clone-your-fork)
+  - [Täze branch (şaha) dörediň](#create-a-new-branch)
+  - [Praktikalaryň çözgütleriniň strukturasy](#structure-exercise-solutions)
+  - [Praktikalaryň çözgütlerini commit-läň](#commit-exercise-solutions)
+  - [Günde öz fork-yňyzy täzeläp duruň](#update-your-fork-daily)
+- [Gurnamak](#setup)
+  - [Node.js - ýüklap alyň we guruň](#install-nodejs)
+  - [Brauzer](#browser)
+    - [Google Chrome-y gurmak](#installing-google-chrome)
+    - [Google Chrome-yň konsolyny açmak](#opening-google-chrome-console)
+    - [Brauzeriň konsolynda kod ýazmak](#writing-code-on-browser-console)
       - [Console.log](#consolelog)
-      - [Console.log with Multiple Arguments](#consolelog-with-multiple-arguments)
-      - [Comments](#comments)
-      - [Syntax](#syntax)
-    - [Arithmetics](#arithmetics)
-  - [Code Editor](#code-editor)
-    - [Installing Visual Studio Code](#installing-visual-studio-code)
-    - [How to Use Visual Studio Code](#how-to-use-visual-studio-code)
+      - [Console.log -y birnäçe argument bilen ulanmak](#consolelog-with-multiple-arguments)
+      - [Kommentariýalar](#comments)
+      - [Sintaksisi](#syntax)
+    - [Arifmetika](#arithmetics)
+  - [Kod redaktory](#code-editor)
+    - [Visual Studio Code-y gurmak](#installing-visual-studio-code)
+    - [Visual Studio Code-y nädip ulanmaly ?](#how-to-use-visual-studio-code)
 
 ---
 
-## Introduction
+## Giriş
 
-**Congratulations** on deciding to participate in 30 days of React programming challenge. In this challenge you will learn everything you need to use to develop a React application. In the end of the challenge you will get a 30DaysOfReact programming challenge completion certificate. In case you need help or if you would like to help others you may join the [telegram group](https://t.me/thirtydaysofreact).
+Sizi 30 Günde React kursumyza goşulanyňyz üçin **GUTLAÝARYS**. Siz bu kursda React bilen programma ýazmak üçin gerek bolan ähli zady öwrenersiňiz. Kursyň soňunda siz 30DaysOfReact kursyny gutaranlygyňyz barada sertifikat alarsyňyz. Ýoluň dowamynda eger size kömek gerek bolsa ýa-da başgalara kömek etmek isleseňiz onda siz biziň [Telegram gruppa](https://t.me/thirtydaysofreact) kanalymyza goşulyp bilersiňiz.
 
 **A 30DaysOfReact** challenge is a guide for both beginners and advanced JavaScript and React developers. Welcome to 30 Days Of React. React is a JavaScript library. I enjoy using and teaching React and I hope you will do so too.
 In this step by step 30 Days React challenge, you will learn React which is one of most popular user interface JavaScript libraries.

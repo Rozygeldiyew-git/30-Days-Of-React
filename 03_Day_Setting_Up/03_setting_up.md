@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> 30 Days Of React: Setting Up </h1>
+  <h1> 30 Günde React: Gurnamak </h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
@@ -7,28 +7,28 @@
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
-<sub>Author:
+<sub>Awtor:
 <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> October, 2020</small>
+<small> Oktýabr, 2020</small>
 </sub>
 
 </div>
 </div>
 
-[<< Day 2](../02_Day_Introduction_to_React/02_introduction_to_react.md) | [Day 4 >>](../04_Day_Components/04_components.md)
+[<< Gün 2](../02_Day_Introduction_to_React/02_introduction_to_react.md) | [Gün 4 >>](../04_Day_Components/04_components.md)
 
-![30 Days of React banner](../images/30_days_of_react_banner_day_3.jpg)
+![30 Günde React banner](../images/30_days_of_react_banner_day_3.jpg)
 
-- [Setting Up](#setting-up)
+- [Gurnamak](#setting-up)
   - [Node](#node)
   - [Module](#module)
-  - [Package](#package)
+  - [Paket](#package)
   - [Node Package Manager(NPM)](#node-package-managernpm)
   - [Visual Studio Code](#visual-studio-code)
-  - [Browser](#browser)
-  - [Visual Studio Extensions](#visual-studio-extensions)
+  - [Brauzer](#browser)
+  - [Visual Studio Goşundylary](#visual-studio-extensions)
   - [Create React App](#create-react-app)
-- [Your first React App](#your-first-react-app)
+- [Ilkinji React koduňyz](#your-first-react-app)
   - [React Boilerplate](#react-boilerplate)
   - [Styles in JSX](#styles-in-jsx)
   - [Injecting data to JSX elements](#injecting-data-to-jsx-elements)

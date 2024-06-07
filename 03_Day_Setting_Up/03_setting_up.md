@@ -30,17 +30,17 @@
   - [Create React App](#create-react-app)
 - [Ilkinji React koduňyz](#your-first-react-app)
   - [React Boilerplate](#react-boilerplate)
-  - [Styles in JSX](#styles-in-jsx)
-  - [Injecting data to JSX elements](#injecting-data-to-jsx-elements)
-  - [Importing Media Objects in React](#importing-media-objects-in-react)
-- [Exercises](#exercises)
-  - [Exercises: Level 1](#exercises-level-1)
-  - [Exercises: Level 2](#exercises-level-2)
-  - [Exercises: Level 3](#exercises-level-3)
+  - [JSX-de stiller](#styles-in-jsx)
+  - [JSX elementlere maglumat goýmak](#injecting-data-to-jsx-elements)
+  - [Medýa obýektleri (surat, aýdym, wideo we ş.m.) ulanmak](#importing-media-objects-in-react)
+- [Praktika](#exercises)
+  - [Praktika: Dereje 1](#exercises-level-1)
+  - [Praktika: Dereje 2](#exercises-level-2)
+  - [Praktika: Dereje 3](#exercises-level-3)
 
-# Setting Up
+# Gurnamak
 
-In the previous section, we learned about JSX and we accessed the React and ReactDOM package using CDN. However, in real projects instead of CDN you will use the create-react-app package to generate a React project starter(boilerplate). The initial _create-react-app_ was released on Jul 22, 2016. Before this time, developers used to configure webpack with a JavaScript module bundler, babel and all the necessary packages manually and this used to take half an hour or maybe more. Now, create-react-app will take care of everything and you will be in charge of only developing the product, instead of spending too much time configuring and setting up projects. Before we start using different tools, let's have a brief introduction to all the tools we are going to use in this challenge. You do not have to understand everything, but I will try to give a very short introduction to some of the tools and technologies that we use when we work with React.
+Biz geçen gezekki sapagymyzda JSX-i öwrendik we React, ReactDOM ýaly paketleri CDN-iň üsti bilen ulanypdyk. Mundan beýläk, biz react-yň boilerplate-ni döretmek üçin CDN-e derek create-react-app  paketini ulanarys. The initial _create-react-app_ was released on Jul 22, 2016. Before this time, developers used to configure webpack with a JavaScript module bundler, babel and all the necessary packages manually and this used to take half an hour or maybe more. Now, create-react-app will take care of everything and you will be in charge of only developing the product, instead of spending too much time configuring and setting up projects. Before we start using different tools, let's have a brief introduction to all the tools we are going to use in this challenge. You do not have to understand everything, but I will try to give a very short introduction to some of the tools and technologies that we use when we work with React.
 
 ## Node
 

@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> 30 Days Of React: Mapping Arrays </h1>
+  <h1> 30 Günde React: Array-leri map-lemek </h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
@@ -7,37 +7,37 @@
   <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
   </a>
 
-<sub>Author:
+<sub>Awtor:
 <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> October, 2020</small>
+<small> Oktýabr, 2020</small>
 </sub>
 
 </div>
 
-[<< Day 5](./../05_Day_Props/05_props.md) | [Day 7 >>](../07_Day_Class_Components/07_class_components.md)
+[<< Gün 5](./../05_Day_Props/05_props.md) | [Gün 7 >>](../07_Day_Class_Components/07_class_components.md)
 
-![30 Days of React banner](../images/30_days_of_react_banner_day_6.jpg)
+![30 Günde React banner](../images/30_days_of_react_banner_day_6.jpg)
 
-- [Mapping arrays](#mapping-arrays)
-  - [Mapping and rendering arrays](#mapping-and-rendering-arrays)
-    - [Mapping array of numbers](#mapping-array-of-numbers)
-    - [Mapping array of arrays](#mapping-array-of-arrays)
-    - [Mapping array of objects](#mapping-array-of-objects)
-    - [Key in mapping arrays](#key-in-mapping-arrays)
-- [Exercises](#exercises)
-  - [Exercises: Level 1](#exercises-level-1)
-  - [Exercises: Level 2](#exercises-level-2)
-  - [Exercises: Level 3](#exercises-level-3)
+- [Array-leri map-lemek](#mapping-arrays)
+  - [Array-leri map-lemek we render etmek (ekrana çykarmak)](#mapping-and-rendering-arrays)
+    - [San saklaýan array-leri map-lemek](#mapping-array-of-numbers)
+    - [Array saklaýan array-leri map-lemek](#mapping-array-of-arrays)
+    - [Obýekt saklaýan array-leri map-lemek](#mapping-array-of-objects)
+    - [Array map-lenende key-ler](#key-in-mapping-arrays)
+- [Praktika](#exercises)
+  - [Praktika: Dereje 1](#exercises-level-1)
+  - [Praktika: Dereje 2](#exercises-level-2)
+  - [Praktika: Dereje 3](#exercises-level-3)
 
-# Mapping arrays
+# Array-leri map-lemek
 
-An array is the most frequently used data structure to handle many kinds of problems. In React, we use map to modify an array to list of JSX by adding a certain HTML elements to each element of an array.
+Bir array, köp sanly meseläni çözmek üçin iň köp ulanylýan maglumat gurluşydyr. React-da bir array-iň  her bir elementine belli bir HTML elementini goşup, bir array-i  JSX elementine öwürmek üçin map ulanýarys.
 
-## Mapping and rendering arrays
+## Array-leri map-lemenk we render etmek (ekrana çykarmak)
 
-Most of the time data is in the form of an array or an array of objects. To render this array or array of objects most of the time we modify the data using _map_. In the previous section, we have rendered the techs list using a map method. In this section, we will see more examples.
+Köplenç maglumatlar bir array-iň içinde ýa-da array-iň içindäki obýektde gelýändir. Biz bu array-leri ýa-da array-iň içindäki obýektleri render etmek (brauzeriň ekranyna çykarmak) üçin _map_ ulanýarys. Geçen gezekki sapagymyzda biz  **techs**  diýen array-i map ulanyp render edipdik. A bu gezek bolsa bu tema barada has köp ekzamplýar göreris.
 
-In the following examples, you will see how we render an array of numbers, an array of strings, an array of countries and an array of skills on the browser.
+Aşakdaky meselemde, san saklaýan, setir ululyk (string) saklaýan, ýurtlary saklaýan (countries) we ukyplary saklaýan (skills)  array-leri nädip browser-e çykarmalydygyny görersiňiz. Ýagny nädip render etmelidigini.
 
 ```js
 import React from 'react'
@@ -57,9 +57,9 @@ const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 ```
 
-If you check the browser, you will see the numbers are attached together in one line. To avoid this, we modify the array and change the array elements to JSX element. See the example below, the array has been modified to a list of JSX elements.
+Brauzeriňizi barlap görseňiz sanlaryň hemmesi bir setirde çykandygyny görersiňiz. Munuň öňüni almak üçin bir bu array-iň her bir elementini JSX-e öwüreris. Aşakdaky ekzamplýarda  array-iň elementleriniň JSX-e öwrülen halyny görüp bilersiňiz.
 
-### Mapping array of numbers
+### San saklaýan array-leri map-lemek
 
 ```js
 import React from 'react'
@@ -92,9 +92,9 @@ const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 ```
 
-### Mapping array of arrays
+### Array saklaýan array-leri map-lemek
 
-Let's see how to map array of arrays
+Aşakda munuň nädip edilendigi görkezilendir.
 
 ```js
 import React from 'react'
@@ -136,9 +136,9 @@ const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 ```
 
-### Mapping array of objects
+### Obýekt saklaýan array-leri map-lemek
 
-Rendering array of objects
+Array-iň içindäki obýektleri render etmek.
 
 ```js
 import React from 'react'
@@ -181,9 +181,9 @@ const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 ```
 
-### Key in mapping arrays
+### Array map-lenende key-ler
 
-Keys help React to identify items which have changed, added, or removed. Keys should be given to the elements inside the array to give the elements a stable identity. The key should be unique. Mostly data will come with as an id and we can use id as key. If we do not pass key to React during mapping it raises a warning on the browser. If the data does not have an id we have to find a way to create a unique identifier for each element when we map it. See the following example:
+Key-ler React-a bir elementiň uýtgäp üýtgemänligini, goşulyp goşulmanlygyny ýa-da aýrylyp aýrylmanlygyny kesgitlemäge kömek edýär. Her bir elemente gaýtalanmaýan (unique) bir ID (pasport diýip pikir edäýiň) bermek üçin  array map-lenende olara key berlip gidilýär. Her bir elemente berilýän key şol array-de gaýtalanmal däldir, ýagny ýeketäk bolmalydyr. Köplenç maglumatlar bir id bilen gelýär we biz hem şol id-ny key hökmünde berip goýberýäris. Eger biz key bermesek onda React bize brauzerde duýduryş berer. Verinin bir kimliği yoksa, eşlerken her öğe için benzersiz bir tanımlayıcı oluşturmanın bir yolunu bulmamız gerekir. Eger array-iň içinde size gelýän maglumatyň id-sy ýok bolsa, onda key-e gaýtalanmaýan maglumat bermegiň bir ýoluny tapmaly bolarsyňyz. Aşakdaky meseleme serediň ( bu ýerde key hökmünde array-iň elementiniň özi berlip gidilendir ):
 
 ```js
 import React from 'react'
@@ -214,7 +214,7 @@ const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 ```
 
-Let's also add in key in countries mapping example.
+Ýurtlary render eden meselemimizede key goşalyň.
 
 ```js
 import React from 'react'
@@ -258,31 +258,31 @@ const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 ```
 
-# Exercises
+# Praktika
 
-## Exercises: Level 1
+## Praktika: Dereje 1
 
-1. Why you need to map an array ?
-2. Why we need keys during mapping an array ?
-3. What is the importance of destructuring your code ?
-4. Does destructuring make your code clean and easy to read ?
+1. Bize array-i map-lemek nämä gerek ?
+2. Biz array-i map-länimizde näme üçin oňa key berýäris ?
+3. Siz näme üçin prop-lary destructure edip alýaňyz ?
+4. Destructure etmek koduňyzy arassa kod edýämi ýa-da kody okamagy ýeňilleşdirýämi ?
 
-## Exercises: Level 2
+## Praktika: Dereje 2
 
-1. In the following design, evens are green, odds are yellow and prime numbers are red. Build the following colors using React component
+1. Aşakdaky praktikany edeniňizde jübüt sanlara ýaşyl, täk sanlara sary we natural sanlara gyzyl reňk beriň. Bu praktikany React component-lerini ulanyp ediň.
 
 ![Number Generator](../images/day_6_number_generater_exercise.png)
 
-2. Create the following hexadecimal colors using React component
+2. React komponentalary ulanyp aşakdaky hex kod proýektini ediň.
 
 ![Number Generator](../images/day_6_hexadecimal_colors_exercise.png)
 
-## Exercises: Level 3
+## Praktika: Dereje 3
 
-1.Make the following bar group using the given [data](../06_Day_Map_List_Keys/06_map_list_keys_boilerplate/src/data/ten_most_highest_populations.js)
+1.Şu [data](../06_Day_Map_List_Keys/06_map_list_keys_boilerplate/src/data/ten_most_highest_populations.js) maglumatlary ulanyp aşakdaky kiçijik proýekti ediň.
 
 ![Ten most highest populations](../images/day_6_ten_highest_populations_exercise.png)
 
-🎉 CONGRATULATIONS ! 🎉
+🎉 GUTLAÝARYS ! 🎉
 
-[<< Day 5](./../05_Day_Props/05_props.md) | [Day 7 >>](../07_Day_Class_Components/07_class_components.md)
+[<< Gün 5](./../05_Day_Props/05_props.md) | [Gün 7 >>](../07_Day_Class_Components/07_class_components.md)

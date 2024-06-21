@@ -269,7 +269,7 @@ ReactDOM.render(<App />, rootElement)
 
 ## Praktika: Dereje 2
 
-1. Aşakdaky praktikany edeniňizde jübüt sanlara ýaşyl, täk sanlara sary we natural sanlara gyzyl reňk beriň. Bu praktikany React component-lerini ulanyp ediň.
+1. Aşakdaky praktikany edeniňizde jübüt sanlara ýaşyl, täk sanlara sary we ýonekeý sanlara gyzyl reňk beriň. Bu praktikany React component-lerini ulanyp ediň.
 
 ![Number Generator](../images/day_6_number_generater_exercise.png)
 
